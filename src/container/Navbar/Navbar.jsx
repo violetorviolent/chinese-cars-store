@@ -23,7 +23,8 @@ const Navbar = () => {
         setCarCount = {setCarCount}
         list = {data.carNamesList}
         title = {carName}
-        setTitel = {setCarName}/>
+        dropdownType ={'DropdownType1_1'}
+        setTitle = {setCarName}/>
         <button onClick={() => { setToggleSearch(false); setCarName('Марка') }}>
           {carName ==='Марка' &&  <p>Поиск</p>}
           {carName !=='Марка' &&  <p>Найдено: {carCount} авто</p>}

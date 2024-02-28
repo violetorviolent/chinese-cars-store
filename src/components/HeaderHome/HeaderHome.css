@@ -61,12 +61,12 @@
 }
 
 .headerSlider__nextArrow {
-  top: 103%;
-  left: 10%;
+  top: 96%;
+  left: 11%;
 }
 
 .headerSlider__prevArrow {
-  top: 103%;
+  top: 96%;
   left: 4%;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);

@@ -139,6 +139,27 @@ const carNamesList = [
   }
 ]
 
+const sortOptions = [
+  {
+    title: 'Цена по возрастанию'
+  },
+  {
+    title: 'Цена по убыванию'
+  },
+  {
+    title: 'По году: новее'
+  },
+  {
+    title: 'По году: старше'
+  },
+  {
+    title: 'По дате добавления'
+  },
+  {
+    title: 'По пробегу'
+  }
+]
+
 
 const cardsType3 = [
     {
@@ -226,4 +247,4 @@ const cardsType4 = [
   }
 ]
 
-export default { HeaderHome, OurAdvantages, RecomendationsSlider, cardsType1, cardsType3, cardsType4, carNamesList };
+export default { HeaderHome, OurAdvantages, RecomendationsSlider, sortOptions, cardsType1, cardsType3, cardsType4, carNamesList, };

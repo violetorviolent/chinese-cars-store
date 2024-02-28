@@ -32,7 +32,11 @@ body::-webkit-scrollbar {
   background: var(--color-accent);
 }
 
-
+.App{
+  max-width: 2500px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .section__padding {
   padding: 2rem 6rem;
@@ -41,6 +45,11 @@ body::-webkit-scrollbar {
 .section__padding-noRightMargin {
   padding: 0 0 2rem 6rem;
 }
+
+.section__padding-noY {
+  padding: 0 6rem;
+}
+
 
 .flex__center {
   display: flex;
@@ -96,12 +105,49 @@ body::-webkit-scrollbar {
   }
 }
 
+.fade {
+  -webkit-animation: fade  ease-in;
+  animation: fade  0.4s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width: 850px) {
 
   .section__padding {
     padding: 2rem 4rem;
   }
-
+  .section__padding-noY {
+    padding: 0 4rem;
+  }
   .section__padding-noRightMargin {
     padding: 0 0 4rem 4rem;
   }
@@ -110,6 +156,9 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 650px) {
   .section__padding {
     padding: 1.5rem;
+  }
+  .section__padding-noY {
+    padding: 0 1.5rem;
   }
 
   .section__padding-noRightMargin {

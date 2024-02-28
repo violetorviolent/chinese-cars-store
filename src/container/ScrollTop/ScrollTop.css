@@ -1,0 +1,15 @@
+.app__scrollTop a{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__scrollTop a{
+        bottom: 10px;
+        right: 10px;
+    }
+  }

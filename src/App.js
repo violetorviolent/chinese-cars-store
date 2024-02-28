@@ -1,6 +1,8 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Navbar, Home, Catalog, Footer } from './container';
+
+import { Catalog, ContactInfo, CreditPage, FavoriteCars, Footer, Home, Navbar, ScrollTop, SpecificCar, SpecificCarModel, TradeInPage} from './container';
 import './AppCss/variables.css';
 import './AppCss/main.css';
 import './AppCss/text.css';
@@ -42,28 +44,34 @@ const Jokes = () => {
 function App() {
   return (
     <div className="App">
-      {/* <Jokes/>
+      <Jokes/>
+      {/* 
       <p> ЦВЕТ ВЫДЕЛЕНИЯ ТЕКСТА</p>
       <p> HOVERs</p>
-      <p> СКРОЛЛ ВВЕРХ</p>
-      <p> МЕТА ТЕГИ</p>
+      <p> АНИМАЦИИ НА МАУНТ И АНМАУНТ</p>
       <p> ВЫЧИТКА ТЕКСТА</p>
-      <p> СВЯЗАТЬ С БЭКЕНДОМ</p>
       <p> ВЫКИНУТЬ ЛИШНИЕ ПЕРЕМЕННЫЕ</p>
       <p> ССЫЛКИ ПОДВЯЗАТЬ</p>
+      <p> СВЯЗАТЬ С БЭКЕНДОМ</p>
       <p> ВОЗВРАЩАТЬСЯ НА ТО ЖЕ МЕСТО СКРОЛЛА</p>
-      <p> КОНТЕЙНЕР ПОД КОНТЕНТ МАКСИМАЛЬНАЯ ШИРИНА</p>
-      <p> АНИМАЦИИ НА МАУНТ И АНМАУНТ</p>
       <p> СКЕЛЕТНАЯ ЗАГРУЗКА КАРТОЧЕК</p>
-      <p> ЭКРАН ПРЕДПОКАЗА ПОКА РЕАКТ СТАРТУЕТ</p>
-      <p> ФУТЕР ИКОНКА ОДНОКЛАССНИКОВ ВМЕСТО ИНСТЫ</p>
-      <p> ИКОНКА ВКЛАДКИ</p> 
-      <p> ЛОГО НАВБАР ОБРЕЗАТЬ СНИЗУ</p> */}
+      <p> ЭКРАН ПРЕДПОКАЗА ПОКА РЕАКТ СТАРТУЕТ</p> */}
+      {/* <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App/>}/>
+      </Routes>
+    </BrowserRouter> */}
       <Navbar/>
       <Home/>
       <Catalog/>
+      <SpecificCarModel/>
+      <SpecificCar/>
+      <CreditPage/>
+      <TradeInPage/>
+      <FavoriteCars/>
+      <ContactInfo/> 
+      <ScrollTop/>
       <Footer/>
-
     </div>
   );
 }

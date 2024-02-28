@@ -11,6 +11,7 @@
     --color-accent:#FF6915;
     --color-accent-dark:#FB5A00;
     --color-light-bg:#F6F6F6;
+    --color-border-light: #DADADA;
     /* not used yet  downstairs */
   
     --color-accent-overlay: rgba(250, 220, 217, 0.5);

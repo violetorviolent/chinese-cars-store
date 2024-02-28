@@ -1,4 +1,16 @@
 .catalogMain-sort-container{
-    border-top: 1px solid var(--color-text);
-    border-bottom: 1px solid var(--color-text);
+    border-top: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.catalogMain-sort-container_sortPrice{
+    border-top: 1px solid var(--color-border-light);
+    border-right: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
+    width: 14rem;
+    margin: 1rem 0  0 auto;
 }

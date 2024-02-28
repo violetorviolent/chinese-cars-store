@@ -5,8 +5,8 @@ nav {
 .app__navbar {
     padding: 0 6rem;
     position: relative;
-    border-top: 1px solid var(--color-text-light);
-    border-bottom: 1px solid var(--color-text-light);
+    border-top: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
 }
 
 .app__navbar li,
@@ -24,7 +24,7 @@ nav {
     color: var(--color-accent);
 }
 
-.app__navbar-menuIcon{
+.app__navbar-menuIcon {
     cursor: pointer;
 }
 
@@ -32,8 +32,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 1rem;
-    border-right: 1px solid var(--color-text-light);
+    padding: 0.5rem 1rem 0.5rem 0;
+    border-right: 1px solid var(--color-border-light);
 }
 
 .app__navbar-links {
@@ -45,13 +45,13 @@ nav {
 }
 
 .app__navbar-icon {
-    padding: 2.3rem;
+    padding: 1.6rem;
     color: var(--color-h);
     cursor: pointer;
-    border-left: 1px solid var(--color-text-light);
+    border-left: 1px solid var(--color-border-light);
 }
 
-.favoriteAmount{
+.favoriteAmount {
     position: absolute;
     top: -10px;
     right: -8px;
@@ -64,7 +64,7 @@ nav {
 }
 
 .app__navbar-icon:nth-child(2) {
-    border-right: 1px solid var(--color-text-light);
+    border-right: 1px solid var(--color-border-light);
 }
 
 .app__navbar-links {
@@ -101,16 +101,16 @@ nav {
     }
 
     .app__navbar-logo {
-        padding: 0 1rem;
-        border-right: 1px solid var(--color-text-light);
-        border-left: 1px solid var(--color-text-light);
+        padding: 0.5rem 1rem;
+        border-right: 1px solid var(--color-border-light);
+        border-left: 1px solid var(--color-border-light);
     }
 
-    .favoriteAmount{
+    .favoriteAmount {
         top: 15px;
         right: 10px;
         width: 20px;
-    line-height: 20px;
+        line-height: 20px;
     }
 }
 
@@ -121,6 +121,7 @@ nav {
     .app__navbar-logo img {
         width: 160px;
     }
+
     .app__navbar-icon {
         padding: 0;
     }
@@ -130,7 +131,7 @@ nav {
         gap: 1.5rem;
     }
 
-    .favoriteAmount{
+    .favoriteAmount {
         top: -10px;
         right: -10px;
     }
