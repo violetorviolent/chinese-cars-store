@@ -1,0 +1,116 @@
+.cardType2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cardType2-colorOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    min-width: 670px;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardType2 * {
+    color: white;
+}
+
+.cardType2-head{
+  max-width: 500px;
+  margin-bottom: auto;
+}
+
+.cardType2-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.cardType2-p {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+
+.cardType2-p img{
+    width: 18px;
+    padding-top: 5px;
+}
+
+
+.cardType2-head-catch {
+    display: inline-block;
+    background-color: var(--color-light-bg);
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    color: var(--color-h);
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.cardType2-h {
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.cardType2 a {
+    display: inline-block;
+    padding: 1.5rem 0 0.5rem;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cardType2-date {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 1.5rem 0 1rem;
+}
+
+
+@media screen and (max-width: 650px) {
+    .cardType2-colorOverlay {
+        min-width: 258px;
+        width: 258px;
+        height: 416px;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+  
+    .cardType2-footer{
+        padding-left: 0;
+    }
+
+    .cardType2-head-catch {
+        padding: 0.3rem 0.5rem;
+    }
+
+    .cardType2-h {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .cardType2-p {
+        display: none;
+    }
+
+    .cardType2 a {
+        padding: 0.5rem 0;
+    }
+
+    .cardType2-date {
+        font-size: 11px;
+        padding: 0.5rem 0;
+    }
+}

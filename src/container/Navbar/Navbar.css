@@ -1,0 +1,137 @@
+nav {
+    margin: 2rem 0;
+}
+
+.app__navbar {
+    padding: 0 6rem;
+    position: relative;
+    border-top: 1px solid var(--color-text-light);
+    border-bottom: 1px solid var(--color-text-light);
+}
+
+.app__navbar li,
+.app__navbar li a {
+    color: var(--color-h);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.app__navbar li:hover,
+.app__navbar a:hover,
+.app__navbar-icon:hover svg,
+.app__navbar-menuIcon:hover {
+    color: var(--color-accent);
+}
+
+.app__navbar-menuIcon{
+    cursor: pointer;
+}
+
+.app__navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+    border-right: 1px solid var(--color-text-light);
+}
+
+.app__navbar-links {
+    margin: 0 auto;
+}
+
+.app__navbar-iconsContainer {
+    display: flex;
+}
+
+.app__navbar-icon {
+    padding: 2.3rem;
+    color: var(--color-h);
+    cursor: pointer;
+    border-left: 1px solid var(--color-text-light);
+}
+
+.favoriteAmount{
+    position: absolute;
+    top: -10px;
+    right: -8px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.app__navbar-icon:nth-child(2) {
+    border-right: 1px solid var(--color-text-light);
+}
+
+.app__navbar-links {
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__navbar-menuIcon {
+    padding-right: 1.5rem;
+}
+
+.app__navbar-smallscreen {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .app__navbar-links {
+        display: none;
+    }
+
+    .app__navbar-smallscreen {
+        display: flex;
+    }
+
+    .app__navbar-icon,
+    .app__navbar-icon:nth-child(2) {
+        border: none;
+    }
+
+    .app__navbar-icon {
+        padding: 1.5rem;
+    }
+
+    .app__navbar-logo {
+        padding: 0 1rem;
+        border-right: 1px solid var(--color-text-light);
+        border-left: 1px solid var(--color-text-light);
+    }
+
+    .favoriteAmount{
+        top: 15px;
+        right: 10px;
+        width: 20px;
+    line-height: 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+    .app__navbar-logo img {
+        width: 160px;
+    }
+    .app__navbar-icon {
+        padding: 0;
+    }
+
+    .app__navbar-iconsContainer {
+        padding-left: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .favoriteAmount{
+        top: -10px;
+        right: -10px;
+    }
+}

@@ -1,0 +1,110 @@
+.banner1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner1-colorOverlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.banner1 * {
+    color: white;
+}
+
+.banner1-colorOverlay h2 {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 3px white;
+}
+
+.banner1-colorOverlay h3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+.banner1-colorOverlay-p{
+    margin: 1.5rem 0;
+}
+
+.banner1-colorOverlay span {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.banner1-p {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+
+.banner1-p img {
+    width: 18px;
+    padding-top: 5px;
+}
+
+.banner1-img{
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .banner1-colorOverlay {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-h-dark);
+        padding: 1.5rem;
+    }
+
+    .banner1-colorOverlay h2 {
+        font-size: 34px;
+        line-height: 41px;
+        font-weight: 700;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .banner1-colorOverlay h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .banner1-colorOverlay-p{
+        margin: 1rem 0 0 0;
+    }
+
+    .banner1-colorOverlay span {
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 500;
+    }
+    .banner1-p {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        max-width: 350px;
+        font-size: 18px;
+        line-height: 29px;
+        font-weight: 400;
+        padding-left: 1.5rem;
+    }
+    .banner1-img{
+        display: block;
+        width: 100%;
+        margin: 4rem 0;
+    }
+}

@@ -1,0 +1,36 @@
+.app__navbar-search{
+    position: absolute;
+    width: 100%;
+    right: 6rem;
+    max-width: 450px;
+    background-color: var(--color-h);
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+    z-index: 2;
+}
+
+.app__navbar-search p{
+    color: white;
+}
+
+.app__navbar-search button p{
+    color: var(--color-h);
+    padding: 0.5rem;
+}
+.app__navbar-search button {
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .app__navbar-search{
+        max-width: 100%;
+        right: 0;
+    }
+}
+

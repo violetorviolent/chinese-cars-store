@@ -1,0 +1,64 @@
+.swiperType1-slide{
+    height: 440px;
+    object-fit: cover;
+  }
+
+  .swiperType1-slide img{
+    height: 100%;
+  }
+
+  .swiperType1{
+    width: 100%;
+    position: absolute;
+  }
+
+  .slick-dots{
+    bottom: 1.5rem ;
+   }
+
+   .slick-dots.slick-thumb li  {
+    margin: 0 0.5rem; 
+    background-color: var(--color-h);
+    width: 39px;
+    height: 4px;
+  }
+
+  .slick-dots.slick-thumb li a {
+    display: block;
+    width: 39px;
+    height: 20px;
+  }
+  .slick-dots.slick-thumb li.slick-active {
+    background-color: var(--color-accent);
+  }
+
+  .arrow {
+    z-index: 2;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+  }
+  
+  .nextArrow {
+    top: 45%;
+    right: 0px;
+  }
+  
+  .prevArrow {
+    top: 45%;
+    left: 0px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+
+  @media screen and (max-width: 650px) {
+    .swiperType1-slide{
+        height: 330px;
+      }
+}

@@ -1,0 +1,105 @@
+h1 {
+    font-size: 69px;
+    font-weight: 500;
+    line-height: 82px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 50px;
+    color: var(--color-h);
+    text-transform: uppercase;
+  }
+  
+  h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--color-h);
+    text-transform: uppercase;
+  }
+  
+  h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: var(--color-text);
+  }
+  
+  .p__carFormfactor {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+  }
+  
+  .p__carTitle {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--color-h);
+  }
+  
+  .p__carCharacteristics {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+  
+  }
+  
+  .p__carPrice-Title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--color-h);
+  }
+  
+  .p__carPriceLineThrough {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--color-text-light);
+    text-decoration: line-through;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+ 
+  
+  @media screen and (max-width: 450px) {
+    h1 {
+      font-size: 34px;
+      line-height: 40px;
+    }
+  
+    h2 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  
+    h4,
+    h5 {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  
+    p {
+      font-size: 14px;
+      line-height: 26px;
+    }
+  
+    .p__carTitle {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  
+  }
