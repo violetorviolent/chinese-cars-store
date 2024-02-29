@@ -11,9 +11,6 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
 
 body::-webkit-scrollbar {
   width: 0px;

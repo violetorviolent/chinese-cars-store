@@ -11,6 +11,7 @@ import logoFooterIcon from '../assets/logoFooterIcon.svg';
 import odnoklassnikiIcon from '../assets/odnoklassnikiIcon.svg';
 import vkIcon from '../assets/vkIcon.svg';
 import ScrollTop from '../assets/ScrollTop.svg';
+import checkboxIcon from '../assets/checkboxIcon.svg';
 import arrowIcon from '../assets/arrowIcon.svg';
 import arrowLeftIcon from '../assets/arrowLeftIcon.svg';
 import arrowRightIcon from '../assets/arrowRightIcon.svg';
@@ -42,6 +43,7 @@ export default {
     logoFooterIcon,
     vkIcon,
     ScrollTop,
+    checkboxIcon,
     arrowIcon,
     arrowLeftIcon,
     arrowRightIcon,

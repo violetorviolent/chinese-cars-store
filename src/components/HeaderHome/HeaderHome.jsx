@@ -10,7 +10,7 @@ const HeaderHomeCard = (props) => {
     return (
         <div className='headerHome-card'>
             <div className='headerHome-card-section__padding'>
-                <h1>{props.card.h1}</h1>
+                <h1 className='uppercase'>{props.card.h1}</h1>
                 <p className='p__carPrice-Title'>{props.card.p}</p>
                 <div className='headerHome-card-bigScreen'>
                     <p className='p__carPrice-Title' style={{ marginTop: '3rem' }}>от <span className='p__headerHome-card-price'>{props.card.price}</span> <span className='p__carPriceLineThrough'>{props.card.prevPrice}</span></p>

@@ -7,7 +7,7 @@ const Banner1 = () => {
             <div className="banner1" style={{ backgroundImage: `url(${images.banner1_bg})` }}>
                 <div className="banner1-colorOverlay" >
                     <div>
-                        <h2>Хит сезона<br/>ВМЕСТЕ С gEELY</h2>
+                        <h2 className='uppercase'>Хит сезона<br/>ВМЕСТЕ С gEELY</h2>
                         <h3>Geely Manjaro 2.0 8AT<br/>(238л.с.) 4WD</h3>
                         <p className='banner1-colorOverlay-p'>от <span>3 849 990 ₽ </span></p>
                         <a href="#" className="btn-type1 btn-type1-orange" style={{ marginTop: '1rem' }}>

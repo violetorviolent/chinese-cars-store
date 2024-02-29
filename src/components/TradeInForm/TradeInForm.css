@@ -1,0 +1,57 @@
+.tradeInForm{
+    padding: 1.5rem;
+    border: 1px solid var(--color-border-light);
+}
+
+.tradeInForm-Input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.tradeInForm-Input-container label{
+    padding: 0.5rem 0;
+}
+
+.tradeInForm-Input-container input{
+    padding: 0.9rem;
+    border: 1px solid var(--color-border-light);
+    text-transform: capitalize;
+    outline: none;
+}
+
+.tradeInForm-Input-container input:focus{
+    border: 1px solid var(--color-h);
+}
+
+.tradeInForm-Input-checkbox{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    position: relative;
+}
+
+.tradeInForm-Input-checkbox input[type="checkbox"] {
+    opacity: 0;
+  }
+
+  input[type="checkbox"] + span {
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background: white;
+    border: 1px solid var(--color-accent);
+    cursor: pointer;
+    outline: none;
+    display: flex;
+  }
+
+  input[type="checkbox"] + span img{
+    max-width: 20px;
+  }
+  input[type="checkbox"]:checked + span {
+    border: 1px solid var(--color-h);
+    background-color: var(--color-h);
+  }
+  

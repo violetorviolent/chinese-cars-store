@@ -12,7 +12,7 @@ const CatalogMain = () => {
     const [sortOptions, setSortOptions] = useState(data.sortOptions[0].title);
     return (
         <section >
-            <h2 className='section__padding ' style={{ paddingBottom: '1.5rem' }}>АВТОСАЛОН EXEED В МОСКВЕ</h2>
+            <h2 className='section__padding ' style={{ paddingBottom: '1.5rem' }}>Автосалон EXEED в Москве</h2>
             <div >
                 <div className="catalogMain-sort-container  section__padding-noY">
                     <DropdownType1

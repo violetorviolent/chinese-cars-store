@@ -10,6 +10,8 @@ import BrandsList from './BrandsList/BrandsList';
 import HeaderHome from './HeaderHome/HeaderHome';
 import CatalogMain from './CatalogMain/CatalogMain';
 import  RecommendedModels from './RecommendedModels/RecommendedModels';
+import TradeInForm from './TradeInForm/TradeInForm';
+import StyledList from './StyledList/StyledList';
 
 export {
   OurAdvantages,
@@ -23,5 +25,7 @@ export {
   HeaderHome,
   HotSalesSliderCatalog,
   CatalogMain,
-  RecommendedModels
+  RecommendedModels,
+  TradeInForm,
+  StyledList
 };

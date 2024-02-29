@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h5>ГЛАВНАЯ</h5>
+          <h5 className='uppercase'>ГЛАВНАЯ</h5>
           <a href="#">Трейд-ин</a>
           <a href="#">Выкуп</a>
           <a href="#">Автокредит</a>
@@ -24,14 +24,14 @@ const Footer = () => {
           <a href="#">Контакты</a>
         </div>
         <div>
-          <h5>АВТО В НАЛИЧИИ</h5>
+          <h5 className='uppercase'>АВТО В НАЛИЧИИ</h5>
           <a href="#">Все авто</a>
           <a href="#">Авто под такси</a>
           <a href="#">Китайские авто</a>
           <a href="#">Скидки</a>
         </div>
         <div>
-          <h5>Магазин</h5>
+          <h5 className='uppercase'>Магазин</h5>
           <a href="#">Сравнение</a>
           <a href="#">Избранное</a>
         </div>

@@ -12,7 +12,7 @@ const SliderType1 = (props) => {
     return (
         <section className="sliderType1">
             <div className="section__padding slider__header">
-                <h2>{props.h2}</h2>
+                <h2 className='uppercase'>{props.h2}</h2>
                 <div className="slider__header-btn_container">
                     <button className="btn-type2" onClick={() => { sliderRef.current.scrollLeft -= scrollAmount; }}>
                         <img src={images.arrowLeftIcon} alt=" scroll left" />

@@ -36,7 +36,7 @@ const InfoHome = () => {
             </div>
             <div className="app__homeInfo-container section__padding-noRightMargin" style={{marginTop:'1.5rem'}}>
                 <div className="app__homeInfo-container__text">
-                    <h2>Интернет-магазин<br />SUPER CARS</h2>
+                    <h2 className='uppercase'>Интернет-магазин<br />SUPER CARS</h2>
                     <br />
                     <p>Добро пожаловать в <span className='bold'>SUPER CARS</span> – каждому нашему клиенту гарантирован индивидуальный подход. С Вами будет общаться Ваш персональный менеджер, который будет лично контролировать процесс подготовки Вашего автомобиля до момента выезда автомобиля из салона. Покупая автомобиль у нас, Вы получаете персональную дисконтную карту, которая предоставляет скидки на обслуживание в техническом центре..</p>
                     <br />

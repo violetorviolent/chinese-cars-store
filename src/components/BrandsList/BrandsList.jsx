@@ -4,7 +4,7 @@ import './BrandsList.css';
 const BrandsList = () => {
     return (
         <section className='section__padding'>
-            <h2>КАТАЛОГ<br />АВТОМОБИЛЕЙ</h2>
+            <h2>Каталог<br />автомобилей</h2>
             <div className='brandLinks-container'>
                 {data.carNamesList.map((card) => {
                     return (

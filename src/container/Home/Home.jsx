@@ -3,7 +3,7 @@ import { OurAdvantages, RecomendationsSlider, MostSoldOptions, HotSalesSlider, N
 
 function Home() {
   return (
-    <div className="Home">
+    <div>
       <HeaderHome/>
       <BrandsList/>
       <OurAdvantages/>

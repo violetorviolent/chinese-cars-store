@@ -2,7 +2,6 @@ h1 {
     font-size: 69px;
     font-weight: 500;
     line-height: 82px;
-    text-transform: uppercase;
   }
   
   h2 {
@@ -10,7 +9,6 @@ h1 {
     font-size: 39px;
     line-height: 50px;
     color: var(--color-h);
-    text-transform: uppercase;
   }
   
   h4 {
@@ -18,7 +16,6 @@ h1 {
     font-size: 18px;
     line-height: 26px;
     color: var(--color-h);
-    text-transform: uppercase;
   }
   
   h5 {
@@ -74,6 +71,17 @@ h1 {
     font-weight: 700;
   }
  
+  .uppercase{
+    text-transform: uppercase;
+  }
+
+  .colorAccent{
+    color: var(--color-accent);
+  }
+
+  .underline{
+    text-decoration: underline;
+  }
   
   @media screen and (max-width: 450px) {
     h1 {
