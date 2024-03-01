@@ -12,6 +12,7 @@ import CatalogMain from './CatalogMain/CatalogMain';
 import  RecommendedModels from './RecommendedModels/RecommendedModels';
 import TradeInForm from './TradeInForm/TradeInForm';
 import StyledList from './StyledList/StyledList';
+import CreditFormMain from './CreditFormMain/CreditFormMain';
 
 export {
   OurAdvantages,
@@ -27,5 +28,6 @@ export {
   CatalogMain,
   RecommendedModels,
   TradeInForm,
-  StyledList
+  StyledList,
+  CreditFormMain
 };

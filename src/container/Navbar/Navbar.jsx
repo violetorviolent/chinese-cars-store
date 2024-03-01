@@ -99,7 +99,7 @@ const Navbar = () => {
 
   return (
     < nav >
-      <div className='flex__center app__navbar '>
+      <div className='flex__center app__navbar section__padding-noY'>
         <div className='app__navbar-smallscreen app__navbar-menuIcon' onClick={() => { setToggleMenu(!toggleMenu); setToggleSearch(false) }} >
           <svg width="36" height="11" viewBox="0 0 36 11" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="36" y1="1.5" x2="11" y2="1.5" stroke="currentColor" stroke-width="2" />

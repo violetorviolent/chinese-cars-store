@@ -1,0 +1,22 @@
+.success {
+    text-align: center;
+    padding: 6rem 2rem;
+    margin-bottom: 6rem;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+
+.success h2 {
+    padding: 1rem 0;
+}
+
+.succes-imgContainer {
+    
+    width: 68px;
+    height: 68px;
+    background-color: var(--color-accent);
+}
+
+.succes-imgContainer svg{
+    display: block;
+}

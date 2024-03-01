@@ -6,9 +6,11 @@ import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import LayoutApp from './LayoutApp/LayoutApp';
 import Navbar from './Navbar/Navbar';
+import Politics from './Politics/Politics';
 import ScrollTop from './ScrollTop/ScrollTop';
 import SpecificCar from './SpecificCar/SpecificCar';
 import SpecificCarModel from './SpecificCarModel/SpecificCarModel';
+import Success from './Success/Success';
 import TradeInPage from './TradeInPage/TradeInPage';
 
 
@@ -21,8 +23,10 @@ export {
   Home,
   LayoutApp,
   Navbar,
+  Politics,
   ScrollTop,
   SpecificCar,
   SpecificCarModel,
+  Success,
   TradeInPage
 };

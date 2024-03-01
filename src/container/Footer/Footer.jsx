@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {images} from '../../constants';
 import './Footer.css'
 
@@ -38,7 +39,7 @@ const Footer = () => {
       </div>
       <div className='section__padding footer__footer'>
         <div><p>© {today.getFullYear()} - SuperCars - Интернет-магазин автомобилей</p></div>
-        <div><a href="#">Политика конфиденциальности</a></div>
+        <div><Link to='politics'>Политика конфиденциальности</Link></div>
       </div>
     </footer>
   )

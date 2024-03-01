@@ -122,6 +122,29 @@ const tradeIn_2 = {
    ]
  }
 
+ const credit = {
+  title:'Наши преимущества:',
+  subtitle:'Почему мы уверены в том, что для Вас это подойдет?',
+  info:[
+     {
+       title: 'Сотрудничество со многими банками в РФ:',
+       p:'Это значительно увеличивает вероятность в получении кредита! 96% наших клиентов получают одобрение.'
+     },
+     {
+      title: 'Быстрый процесс оформленя:',
+      p:'Процесс оформления максимально прост: всего два документа - паспорт гражданина РФ и водительское удостоверение.'
+    },
+    {
+      title: 'Быстрое принятие решения:',
+      p:'Банки принимают решение всего за 30 минут.'
+    },
+    {
+      title: 'Выгодная ставка по автокредиту:',
+      p:'Автокредит выгоден: процентные ставки начинаются от 4.9%.'
+    },
+   ]
+ }
+
 const cardsType1 = [
   {
     id: 4,
@@ -292,4 +315,4 @@ const cardsType4 = [
   }
 ]
 
-export default { HeaderHome, OurAdvantages, RecomendationsSlider, tradeIn_1, tradeIn_2, sortOptions, cardsType1, cardsType3, cardsType4, carNamesList, };
+export default { HeaderHome, OurAdvantages, RecomendationsSlider, tradeIn_1, tradeIn_2, credit, sortOptions, cardsType1, cardsType3, cardsType4, carNamesList, };

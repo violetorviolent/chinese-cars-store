@@ -19,6 +19,7 @@ import plusIcon from '../assets/plusIcon.svg';
 import infoHome from '../assets/infoHome.png';
 import banner1_bg from '../assets/banner1_bg.jpg';
 import banner1_img from '../assets/banner1_img.png';
+import CarCreditDefault from '../assets/CarCreditDefault.png';
 import RecomendationsSlider_1 from '../assets/RecomendationsSlider_1.png';
 import RecomendationsSlider_2 from '../assets/RecomendationsSlider_2.png';
 import RecomendationsSlider_3 from '../assets/RecomendationsSlider_3.png';
@@ -51,6 +52,7 @@ export default {
     infoHome,
     banner1_bg,
     banner1_img,
+    CarCreditDefault,
     placeholderCardType1,
     RecomendationsSlider_1,
     RecomendationsSlider_2,

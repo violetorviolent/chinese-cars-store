@@ -1,0 +1,57 @@
+.creditForm {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.creditForm__cardCar,
+.creditForm__creditForm {
+    border: 1px solid var(--color-border-light);
+    padding: 2rem;
+    margin-bottom: auto;
+}
+
+.creditForm__creditForm-CarSelect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    border-bottom: 1px solid var(--color-border-light);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.creditForm__creditForm-infoField {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--color-accent);
+    padding: 1rem;
+    margin: 0.4rem 0;
+}
+
+.creditForm__cardCar-imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .creditForm {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .creditForm__creditForm-CarSelect {
+        grid-template-columns: 1fr;
+    }
+
+   
+
+    .creditForm__cardCar-imgContainer img {
+        width: 100%;
+    }
+}

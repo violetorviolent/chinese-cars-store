@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { Link,  useNavigate  } from 'react-router-dom';
 import { IMaskInput } from 'react-imask';
 import { images } from '../../constants';
 import './TradeInForm.css';
@@ -12,9 +13,13 @@ const TradeInForm = () => {
   const [userName, setUserName] = useState('');
   const [userPhone, setUserPhone] = useState('');
   const [checked, setChecked] = useState(true);
+  const navigate = useNavigate();
+
 
   const handlesubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
+    navigate("/success");
+      
   }
 
   return (
@@ -77,11 +82,12 @@ const TradeInForm = () => {
               id='userPhone-tradein'
               mask={'+{7}(000) 000-00-00'}
               value={userPhone}
-              unmask={true} 
+              unmask={true}
               ref={ref}
-              inputRef={inputRef}  
+              inputRef={inputRef}
+              minlength="17"
               required
-              onAccept={(value)=>{setUserPhone(value)}}
+              onAccept={(value) => { setUserPhone(value) }}
               placeholder='Введите данные...'
             />
           </div>
@@ -96,7 +102,7 @@ const TradeInForm = () => {
                 {checked && <img src={images.checkboxIcon} />}
               </span>
             </div>
-            <a href='#'><p>Я соглашаюсь на обработку персональных данных в соответствии с <span className='underline'>политикой конфиденциальности</span></p></a>
+            <p><span onClick={() => setChecked(!checked)} style={{cursor:'pointer'}}>Я соглашаюсь на обработку персональных данных в соответствии с </span><Link to='/politics'className='underline'>политикой конфиденциальности</Link></p>
           </div>
           <button className={"btn-type1 btn-type1-black "} style={{ marginTop: '1rem' }}>
             <div className='btn-type1-container'>
@@ -105,8 +111,6 @@ const TradeInForm = () => {
             </div>
           </button>
         </div>
-
-
       </form>
     </div>
   )

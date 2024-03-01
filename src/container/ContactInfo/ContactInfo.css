@@ -1,0 +1,43 @@
+.contactInfo-paging {
+    border-bottom: 1px solid var(--color-border-light);
+    position: relative;
+}
+
+.contactInfo-paging-container {
+    border: 1px solid var(--color-border-light);
+    border-bottom: 1px solid white;
+    position: absolute;
+    bottom: -1px;
+    padding: 0.5rem 1.5rem;
+}
+
+.contactInfo-container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contactInfo-contactInfo_list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contactInfo-contactInfo_list li{
+    display: flex;
+    gap: 1rem;
+}
+
+.YandexMap{
+width: 400px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .contactInfo-container{
+        flex-direction: column;
+    }
+    
+  
+  }
