@@ -2,7 +2,7 @@ import './Success.css'
 
 const Success = () => {
     return (
-        <div className='section__padding'>
+        <div className='section__padding fade'>
             <div className='flex__center'>
                 <div className='success flex__center'>
                     <div className='succes-imgContainer flex__center'>

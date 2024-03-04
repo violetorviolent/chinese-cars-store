@@ -21,18 +21,32 @@
     margin-bottom: 1rem;
 }
 
+.creditForm_userData-container {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1rem;
+} 
 
+.creditForm__cardCar h2{
+    padding-bottom: 1rem;
+    }
+
+.creditForm__cardCar-characteristics{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.creditForm__cardCar-imgContainer {
+    display: flex;
+    justify-content: center;
+}
 .creditForm__creditForm-infoField {
     display: flex;
     justify-content: space-between;
     border: 1px solid var(--color-accent);
     padding: 1rem;
     margin: 0.4rem 0;
-}
-
-.creditForm__cardCar-imgContainer {
-    display: flex;
-    justify-content: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -49,7 +63,9 @@
         grid-template-columns: 1fr;
     }
 
-   
+    .creditForm_userData-container {
+        flex-direction: column;
+    }
 
     .creditForm__cardCar-imgContainer img {
         width: 100%;

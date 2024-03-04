@@ -4,7 +4,8 @@
     background-position: center;
 }
 
-.banner1-colorOverlay {
+.banner1-colorOverlay,
+.banner2-colorOverlay  {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 7rem;
     display: flex;
@@ -57,9 +58,11 @@
     padding-top: 5px;
 }
 
-.banner1-img{
+.banner1-img,
+.banner1-priceMobile{
     display: none;
 }
+
 
 @media screen and (max-width: 650px) {
     .banner1-colorOverlay {
@@ -67,6 +70,13 @@
         justify-content: center;
         align-items: center;
         background-color: var(--color-h-dark);
+        padding: 1.5rem;
+    }
+
+    .banner2-colorOverlay {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 1.5rem;
     }
 
@@ -106,5 +116,18 @@
         display: block;
         width: 100%;
         margin: 4rem 0;
+    }
+
+    .banner1-colorOverlay-p{
+        display: none;
+    }
+    .banner1-priceMobile{
+        display: block;
+        text-align: end;
+        padding-bottom: 1rem;
+    }
+  
+    .banner1-priceMobile span{
+        font-size: 28px;
     }
 }

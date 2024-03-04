@@ -38,7 +38,7 @@ const Navbar = () => {
     return (
       <div className='app__navbar-overlayMenu '>
         <div className='slide-down'>
-          <div className='app__navbar-overlayMenu__bigScreen section__padding'>
+          <div className='app__navbar-overlayMenu__bigScreen section__padding '>
             <div className='app__navbar-overlayMenu__bigScreen-catalog'>
               <div className='app__navbar-overlayMenu__bigScreen-catalogClose' onClick={() => { setToggleMenu(false) }}>
                 <p>Каталог</p>

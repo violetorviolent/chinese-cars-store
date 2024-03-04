@@ -8,6 +8,7 @@ import './AppCss/main.css';
 import './AppCss/text.css';
 import './AppCss/buttons.css';
 import './AppCss/gridComponents.css';
+import './AppCss/form.css';
 
 import helpers from "./reusable/helpers";
 import axios from './apis/availiableCars';
@@ -75,7 +76,10 @@ function App() {
       <p> СТРАНИЦА ВЫКУПА ЭТО...?</p> 
       <p> ВООБЩЕ ВСЕ ССЫЛКИ ФУТЕРА, ЛОЛ...?</p>
       <p> Формочки откидывают на саксесс и присылают что-то на бэк</p> 
-      <p> рекламные скрипты </p> */}
+      <p> рекламные скрипты </p> 
+      <p> текст про оферта-реклама-итд в футере как на азимуте(????) </p> 
+      <p> яндексКарта координаты </p>
+      <p> Input range (credit form, catalog) </p> */}
       <RouterProvider router={router}/>
     </div>
   );

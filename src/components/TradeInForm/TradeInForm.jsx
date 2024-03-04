@@ -18,7 +18,10 @@ const TradeInForm = () => {
 
   const handlesubmit = (e) => {
     e.preventDefault();
-    navigate("/success");
+    if(userPhone.length===11){
+      navigate("/success");
+    }
+   
       
   }
 
@@ -26,7 +29,7 @@ const TradeInForm = () => {
     <div className='section__padding'>
       <form className='tradeInForm' onSubmit={(e) => { handlesubmit(e) }}>
         <p className='bold'>Введите данные автомобиля</p>
-        <div className='tradeInForm-Input-container'>
+        <div className='input-container'>
           <label htmlFor='brand-tradein'>Марка <span className='colorAccent'>*</span></label>
           <input
             id='brand-tradein'
@@ -38,7 +41,7 @@ const TradeInForm = () => {
             onChange={(e) => setBrand(e.target.value)}
           />
         </div>
-        <div className='tradeInForm-Input-container'>
+        <div className='input-container'>
           <label htmlFor='model-tradein'>Модель <span className='colorAccent'>*</span></label>
           <input
             id='model-tradein'
@@ -50,7 +53,7 @@ const TradeInForm = () => {
             onChange={(e) => setModel(e.target.value)}
           />
         </div>
-        <div className='tradeInForm-Input-container'>
+        <div className='input-container'>
           <label htmlFor='year-tradein'>Год выпуска <span className='colorAccent'>*</span></label>
           <input
             id='year-tradein'
@@ -64,7 +67,7 @@ const TradeInForm = () => {
         </div>
         <div>
           <p className='bold'>Ваши данные</p>
-          <div className='tradeInForm-Input-container'>
+          <div className='input-container'>
             <label htmlFor='userName-tradein'>ФИО <span className='colorAccent'>*</span></label>
             <input
               id='userName-tradein'
@@ -76,7 +79,7 @@ const TradeInForm = () => {
               onChange={(e) => setUserName(e.target.value)}
             />
           </div>
-          <div className='tradeInForm-Input-container'>
+          <div className='input-container'>
             <label htmlFor='userPhone-tradein'>Номер телефона <span className='colorAccent'>*</span></label>
             <IMaskInput
               id='userPhone-tradein'
@@ -95,7 +98,7 @@ const TradeInForm = () => {
 
         </div>
         <div>
-          <div className='tradeInForm-Input-checkbox'>
+          <div className='input-checkbox'>
             <div>
               <input type="checkbox" checked={checked} />
               <span onClick={() => setChecked(!checked)}>

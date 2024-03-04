@@ -6,6 +6,7 @@ import RecomendationsSlider from './RecomendationsSlider/RecomendationsSlider';
 import NiceOptions from './NiceOptions/NiceOptions';
 import MostSoldOptions from './MostSoldOptions/MostSoldOptions';
 import Banner1 from './Banner1/Banner1';
+import Banner2 from './Banner2/Banner2';
 import BrandsList from './BrandsList/BrandsList';
 import HeaderHome from './HeaderHome/HeaderHome';
 import CatalogMain from './CatalogMain/CatalogMain';
@@ -22,6 +23,7 @@ export {
   MostSoldOptions,
   RecomendationsSlider, 
   Banner1,
+  Banner2,
   BrandsList,
   HeaderHome,
   HotSalesSliderCatalog,

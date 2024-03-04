@@ -12,6 +12,10 @@ import odnoklassnikiIcon from '../assets/odnoklassnikiIcon.svg';
 import vkIcon from '../assets/vkIcon.svg';
 import ScrollTop from '../assets/ScrollTop.svg';
 import checkboxIcon from '../assets/checkboxIcon.svg';
+import vkLightIcon from '../assets/vkLightIcon.svg';
+import adressIcon from '../assets/adressIcon.svg';
+import phoneIcon from '../assets/phoneIcon.svg';
+import emailIcon from '../assets/emailIcon.svg';
 import arrowIcon from '../assets/arrowIcon.svg';
 import arrowLeftIcon from '../assets/arrowLeftIcon.svg';
 import arrowRightIcon from '../assets/arrowRightIcon.svg';
@@ -20,6 +24,11 @@ import infoHome from '../assets/infoHome.png';
 import banner1_bg from '../assets/banner1_bg.jpg';
 import banner1_img from '../assets/banner1_img.png';
 import CarCreditDefault from '../assets/CarCreditDefault.png';
+import carCardCredit_1 from '../assets/carCardCredit_1.svg';
+import carCardCredit_2 from '../assets/carCardCredit_2.svg';
+import carCardCredit_3 from '../assets/carCardCredit_3.svg';
+import carCardCredit_4 from '../assets/carCardCredit_4.svg';
+import Banner_2Exeed from '../assets/Banner_2Exeed.png';
 import RecomendationsSlider_1 from '../assets/RecomendationsSlider_1.png';
 import RecomendationsSlider_2 from '../assets/RecomendationsSlider_2.png';
 import RecomendationsSlider_3 from '../assets/RecomendationsSlider_3.png';
@@ -45,6 +54,10 @@ export default {
     vkIcon,
     ScrollTop,
     checkboxIcon,
+    vkLightIcon,
+    adressIcon,
+    phoneIcon,
+    emailIcon,
     arrowIcon,
     arrowLeftIcon,
     arrowRightIcon,
@@ -53,6 +66,11 @@ export default {
     banner1_bg,
     banner1_img,
     CarCreditDefault,
+    carCardCredit_1,
+    carCardCredit_2,
+    carCardCredit_3,
+    carCardCredit_4,
+    Banner_2Exeed,
     placeholderCardType1,
     RecomendationsSlider_1,
     RecomendationsSlider_2,
