@@ -56,7 +56,7 @@ const ContactInfo = () => {
           <li>
             <p>Мы в соц.сетях:</p>
             <div><a href="#"> <img src={images.vkLightIcon} alt="vk" /></a></div>
-            <div><a href="#"><img src={images.odnoklassnikiIcon} alt="odnoklassniki" /></a></div>
+            <div><a href="#"><img src={images.odnoklassnikiLightIcon} alt="odnoklassniki" /></a></div>
           </li>
         </ul>
         <YMaps>

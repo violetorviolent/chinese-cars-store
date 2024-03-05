@@ -1,7 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
-
 import { Catalog, ContactInfo, CreditPage, FavoriteCars, Home, LayoutApp, Politics, SpecificCar, SpecificCarModel, Success, TradeInPage} from './container';
 import './AppCss/variables.css';
 import './AppCss/main.css';

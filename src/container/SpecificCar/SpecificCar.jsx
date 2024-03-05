@@ -1,4 +1,4 @@
-import React from 'react'
+// import {DiscountPannel} from '../../components'
 
 const SpecificCar = () => {
   return (

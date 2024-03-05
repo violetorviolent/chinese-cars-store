@@ -1,0 +1,34 @@
+.range-CreditForm {
+  position: relative;
+  padding: 0 0 3rem;
+}
+
+.range-CreditForm p {
+  padding-top: 1rem;
+}
+
+.range-CreditForm-scale {
+  position: absolute;
+  top: 35px;
+  width: 101%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.range-CreditForm-scale_item {
+  color: rgb(57, 48, 49);
+  text-align: center;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 450px) {
+
+  .range-CreditForm-scale_item {
+    font-size: 12px;
+  }
+
+  .range-CreditForm {
+    position: relative;
+    padding: 0 0 2rem;
+  }
+}

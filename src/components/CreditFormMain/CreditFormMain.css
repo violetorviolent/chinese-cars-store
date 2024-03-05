@@ -49,6 +49,16 @@
     margin: 0.4rem 0;
 }
 
+.creditFormShort__cardCar-container{
+    padding-top: 1rem;
+}
+.creditFormShort__cardCar-container ul{
+    list-style: none;
+}
+
+.creditFormShort__cardCar-container li{
+    padding-top: 1rem;
+}
 @media screen and (max-width: 1200px) {
     .creditForm {
         grid-template-columns: 1fr;
@@ -70,4 +80,8 @@
     .creditForm__cardCar-imgContainer img {
         width: 100%;
     }
+    .creditForm__cardCar{
+        display: none;
+    }
+
 }

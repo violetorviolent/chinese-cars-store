@@ -13,6 +13,7 @@ import vkIcon from '../assets/vkIcon.svg';
 import ScrollTop from '../assets/ScrollTop.svg';
 import checkboxIcon from '../assets/checkboxIcon.svg';
 import vkLightIcon from '../assets/vkLightIcon.svg';
+import odnoklassnikiLightIcon from '../assets/odnoklassnikiLightIcon.svg';
 import adressIcon from '../assets/adressIcon.svg';
 import phoneIcon from '../assets/phoneIcon.svg';
 import emailIcon from '../assets/emailIcon.svg';
@@ -55,6 +56,7 @@ export default {
     ScrollTop,
     checkboxIcon,
     vkLightIcon,
+    odnoklassnikiLightIcon,
     adressIcon,
     phoneIcon,
     emailIcon,

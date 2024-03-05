@@ -79,6 +79,10 @@ h1 {
     color: var(--color-accent);
   }
 
+  .colorLight{
+    color: var(--color-text-light);
+  }
+
   .underline{
     text-decoration: underline;
   }
@@ -93,6 +97,7 @@ h1 {
       font-size: 24px;
       line-height: 28px;
     }
+    
   
     h4,
     h5 {

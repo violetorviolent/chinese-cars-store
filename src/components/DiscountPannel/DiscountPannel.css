@@ -1,0 +1,31 @@
+.discountPanel{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 1rem;
+}
+
+.discountPanel_unit{
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+}
+
+.discountPanel_unit-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discountPanel .btn-type1 div p{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .discountPanel{
+        grid-template-columns: 1fr;
+        }
+
+        .discountPanel_unit{
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+  }

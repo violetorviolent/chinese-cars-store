@@ -190,7 +190,7 @@ class RangeTime extends React.Component {
 
 
 
-const CreditFormMain = (props) => {
+const CreditFormShort = (props) => {
     const [carName, setCarName] = useState('Выбрать');
     const ref = useRef(null);
     const inputRef = useRef(null);
@@ -212,22 +212,6 @@ const CreditFormMain = (props) => {
             <div className='creditForm__creditForm'>
                 <div className='creditForm__creditForm-CarSelect'>
                     <div>
-                        <p>Марка <span className='colorAccent'>*</span></p>
-                        <DropdownType1
-                            list={data.carNamesList}
-                            title={carName}
-                            setTitle={setCarName}
-                            dropdownType={'DropdownType1_3'} />
-                    </div>
-                    <div>
-                        <p>Модель <span className='colorAccent'>*</span></p>
-                        <DropdownType1
-                            list={data.carNamesList}
-                            title={carName}
-                            setTitle={setCarName}
-                            dropdownType={'DropdownType1_3'} />
-                    </div>
-                    <div>
                         <p>Комплектация <span className='colorAccent'>*</span></p>
                         <DropdownType1
                             list={data.carNamesList}
@@ -246,7 +230,7 @@ const CreditFormMain = (props) => {
                     </div>
                 </div>
                 <div className="phoneOnly">
-                <h2 style={{paddingBottom:'1rem'}}>Выберите автомобиль</h2>
+                <h2 style={{paddingBottom:'1rem'}}>Auto_Name</h2>
                 <div className='creditForm__cardCar-imgContainer'>
                     <img src={images.CarCreditDefault} alt="car image" />
                 </div>
@@ -275,7 +259,7 @@ const CreditFormMain = (props) => {
                 <RangePayment />
                 <p className='colorLight'>Скидка действует при первом взносе от 10%</p>
                 <RangeTime />
-                <div className='phoneOnly'>
+                <div>
                 <div className='creditForm__creditForm-infoField '>
                             <p className='colorAccent'>Цена со скидкой:</p>
                             <p className='colorAccent'>От 756 300 ₽</p>
@@ -349,7 +333,7 @@ const CreditFormMain = (props) => {
             </div>
 
             <div className='creditForm__cardCar'>
-                <h2>Выберите автомобиль</h2>
+                
                 <div className='creditForm__cardCar-imgContainer'>
                     <img src={images.CarCreditDefault} alt="car image" />
                 </div>
@@ -372,27 +356,13 @@ const CreditFormMain = (props) => {
                             <p className='p__carPrice-Title'>КПП Робот</p>
                         </div>
                     </div>
-                    <div className='creditForm__cardCar-infoField'>
-                        <div className='creditForm__creditForm-infoField '>
-                            <p className='colorAccent'>Цена со скидкой:</p>
-                            <p className='colorAccent'>От 756 300 ₽</p>
-                        </div>
-                        <div className='creditForm__creditForm-infoField'>
-                            <p className='colorAccent'>Первоначальный взнос:</p>
-                            <p className='colorAccent'>От 756 300 ₽</p>
-                        </div>
-                        <div className='creditForm__creditForm-infoField'>
-                            <p className='colorAccent'>Ежемесячный платеж:</p>
-                            <p className='colorAccent'>От 756 300 ₽</p>
-                        </div>
-                        <div className='creditForm__creditForm-infoField'>
-                            <p className='colorAccent'>Ваша выгода:</p>
-                            <p className='colorAccent'>От 756 300 ₽</p>
-                        </div>
-                        <div className='creditForm__creditForm-infoField'>
-                            <p className='colorAccent'>Ставка по кредиту:</p>
-                            <p className='colorAccent'>От 756 300 ₽</p>
-                        </div>
+                    <div className='creditFormShort__cardCar-container'>
+                        <h3>С программой <span className='colorAccent'> SKODA Finance </span> Вы получите:</h3>
+                        <ul>
+                        <li><p>- минимальную ставку по автокредиту на всю линейку автомобилей SKODA от 4.9% годовых</p></li>
+                        <li><p>- удобный и подобранный специально для Вас ежемесячный платеж и срок выплаты автокредита</p></li>
+                        <li><p>- отсрочку первого платежа и отсутствие требований по первоначальному взносу, если оставите заявку прямо сейчас, то автомобиль Вы сможете забрать уже сегодня!</p></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -400,4 +370,4 @@ const CreditFormMain = (props) => {
     )
 }
 
-export default CreditFormMain
+export default CreditFormShort

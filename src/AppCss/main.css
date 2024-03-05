@@ -47,6 +47,9 @@ body::-webkit-scrollbar {
   padding: 0 6rem;
 }
 
+.phoneOnly{
+  display: none;
+}
 
 .flex__center {
   display: flex;
@@ -160,5 +163,11 @@ body::-webkit-scrollbar {
 
   .section__padding-noRightMargin {
     padding: 0 0 1.5rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .phoneOnly{
+    display: block;
   }
 }
