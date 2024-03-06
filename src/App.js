@@ -43,8 +43,8 @@ const Jokes = () => {
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<LayoutApp/>}>
-      <Route index element={<Home/>}/>
+    <Route path='chinese-cars-store/' element={<LayoutApp/>}>
+      <Route index element={<Home/>} />
       <Route path='cars' element={<Catalog/>}/>
       <Route path='cars/:brand/:model/' element={<SpecificCarModel/>}/>
       <Route path='cars/:brand/:model/:id' element={<SpecificCar/>}/>
@@ -54,7 +54,7 @@ const router = createBrowserRouter(
       <Route path='favorite' element={<FavoriteCars/>}/>
       <Route path='politics' element={<Politics/>}/>
       <Route path='success' element={<Success/>}/>
-      <Route path='*' element={<ErrorPage/>} />
+      <Route path='*' element={<ErrorPage/>}/>
     </Route>
   )
 )

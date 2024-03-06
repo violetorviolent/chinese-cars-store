@@ -36,7 +36,7 @@ const BannerForm = () => {
     return (
         <div className='section__padding'>
             <div className='section__padding bannerForm'>
-                <div className="phoneOnly">
+                <div className="phoneOnly-bannerForm">
                     <div style={{ padding: '2rem 0' }}>
                         <PomodoroTimer />
                     </div>
