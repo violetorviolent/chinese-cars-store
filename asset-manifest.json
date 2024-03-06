@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chinese-cars-store/static/css/main.434f63a0.css",
-    "main.js": "/chinese-cars-store/static/js/main.0871d849.js",
+    "main.css": "/chinese-cars-store/static/css/main.c1563eca.css",
+    "main.js": "/chinese-cars-store/static/js/main.73f6b867.js",
     "static/media/RecomendationsSlider_1.png": "/chinese-cars-store/static/media/RecomendationsSlider_1.04e82849ad235cb62cbc.png",
     "static/media/RecomendationsSlider_2.png": "/chinese-cars-store/static/media/RecomendationsSlider_2.a38b725e77d34947beec.png",
     "static/media/placeholderCardType3_2.png": "/chinese-cars-store/static/media/placeholderCardType3_2.3d4efeae72198a7f8aa6.png",
@@ -47,11 +47,11 @@
     "static/media/checkboxIcon.svg": "/chinese-cars-store/static/media/checkboxIcon.68f69f894eaa004649aac74b89b292f6.svg",
     "static/media/plusIcon.svg": "/chinese-cars-store/static/media/plusIcon.50c3d47f1ccdb32662fdf4a895a6f0a0.svg",
     "static/media/HeaderHomeSliderActiveDot.svg": "/chinese-cars-store/static/media/HeaderHomeSliderActiveDot.6daddc2604edd1995a8e.svg",
-    "main.434f63a0.css.map": "/chinese-cars-store/static/css/main.434f63a0.css.map",
-    "main.0871d849.js.map": "/chinese-cars-store/static/js/main.0871d849.js.map"
+    "main.c1563eca.css.map": "/chinese-cars-store/static/css/main.c1563eca.css.map",
+    "main.73f6b867.js.map": "/chinese-cars-store/static/js/main.73f6b867.js.map"
   },
   "entrypoints": [
-    "static/css/main.434f63a0.css",
-    "static/js/main.0871d849.js"
+    "static/css/main.c1563eca.css",
+    "static/js/main.73f6b867.js"
   ]
 }
