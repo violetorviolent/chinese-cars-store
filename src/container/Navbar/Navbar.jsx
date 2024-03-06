@@ -107,7 +107,7 @@ const Navbar = () => {
           </svg>
         </div>
         <div className='app__navbar-logo'>
-          <Link to='chinese-cars-store/' onClick={() => { setToggleMenu(false) }}><img src={images.logoNavIcon} alt="logo" /></Link>
+          <Link to='/chinese-cars-store' onClick={() => { setToggleMenu(false) }}><img src={images.logoNavIcon} alt="logo" /></Link>
         </div>
         <ul className='app__navbar-links'>
           <li>
@@ -119,7 +119,7 @@ const Navbar = () => {
               Каталог
             </div>
           </li>
-          <li><NavLink to='chinese-cars-store/' className={({ isActive}) => isActive ? "activeNavLink" : "" } onClick={() => { setToggleMenu(false) }}>Горячие предложения</NavLink></li>
+          <li><NavLink to='*' className={({ isActive}) => isActive ? "activeNavLink" : "" } onClick={() => { setToggleMenu(false) }}>Горячие предложения</NavLink></li>
           <li><NavLink to='cars' className={({ isActive }) =>  isActive ? "activeNavLink" : "" } onClick={() => { setToggleMenu(false) }}>Автомобили</NavLink></li>
           <li><NavLink to='trade-in' className={({ isActive }) => isActive ? "activeNavLink" : ""} onClick={() => { setToggleMenu(false) }}> TRADE-IN</NavLink></li>
           <li><NavLink to='credit' className={({ isActive }) => isActive ? "activeNavLink" : ""}  onClick={() => { setToggleMenu(false) }}>В кредит</NavLink></li>
