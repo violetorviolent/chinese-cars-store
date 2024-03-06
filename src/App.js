@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
-import { Catalog, ContactInfo, CreditPage, FavoriteCars, Home, LayoutApp, Politics, SpecificCar, SpecificCarModel, Success, TradeInPage} from './container';
+import { Catalog, ContactInfo, CreditPage, FavoriteCars, Home, LayoutApp, Politics, SpecificCar, SpecificCarModel, Success, TradeInPage, ErrorPage} from './container';
 import './AppCss/variables.css';
 import './AppCss/main.css';
 import './AppCss/text.css';
@@ -54,6 +54,7 @@ const router = createBrowserRouter(
       <Route path='favorite' element={<FavoriteCars/>}/>
       <Route path='politics' element={<Politics/>}/>
       <Route path='success' element={<Success/>}/>
+      <Route path='*' element={<ErrorPage/>} />
     </Route>
   )
 )
@@ -62,7 +63,8 @@ const router = createBrowserRouter(
 function App() {
   return (
     <div className="App">
-      <Jokes/>
+     
+      {/* <Jokes/> */}
       {/* 
       <p> ЦВЕТ ВЫДЕЛЕНИЯ ТЕКСТА</p>
       <p> HOVERs</p>

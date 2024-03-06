@@ -20,30 +20,18 @@ const BannerForm = () => {
 
     }
 
-    // const expirationDate = Date.now() / 1000;
-    // const date = new Date();
-    // const m = new Date();
-    // if(date.getDay()){m.setDate(date.getDate() + 8 - date.getDay())} else {m.setDate(date.getDate() + 1)}
-    // alert(m);
-//     const date = new Date("2010-08-10");
+    const date = new Date();
+    const targetDay = 1; // понедельник, начиная с вс=0
+    let targetDate = new Date();
+    const delta = targetDay - date.getDay();
+    if (delta >= 0) { targetDate.setDate(date.getDate() + delta) }
+    else { targetDate.setDate(date.getDate() + 7 + delta) }
 
-// let d=new Intl.DateTimeFormat({year:"numeric", month:"2-digit",day:"2-digit"}).format(date).split(" ").join(".");
-// const date = Date.now();
-
-// const formatter = new Intl.DateTimeFormat('ru', {
-//   weekday: 'long',
-//   year: 'numeric',
-//   month: 'numeric',
-//   day: 'numeric',
-//   hour: 'numeric',
-//   minute: 'numeric',
-//   second: 'numeric',
-//   hour12: true,
-//   timeZone: 'UTC'
-// });
-// alert(formatter);
-
-// alert(d);
+    targetDate = new Intl.DateTimeFormat('ru', {
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+    }).format(targetDate);
 
     return (
         <div className='section__padding'>
@@ -57,13 +45,13 @@ const BannerForm = () => {
                     </div>
                 </div>
                 <div className='bannerForm_form'>
-                        <h1>Станьте владельцем Geely Coolray уже сегодня</h1>                   
+                    <h1>Станьте владельцем Geely Coolray уже сегодня</h1>
                     <form onSubmit={(e) => { handlesubmit(e) }}>
-                    <div className='bannerForm_form-head'>
-                        <span className='line'></span>
-                        <h4>Срок действия акции - до <span className='backgroundAccent'>12.02.2024</span></h4>
-                        <span className='line'></span>
-                    </div>
+                        <div className='bannerForm_form-head'>
+                            <span className='line'></span>
+                            <h4>Срок действия акции - до <span className='backgroundAccent'>{targetDate}</span></h4>
+                            <span className='line'></span>
+                        </div>
                         <div className='bannerForm_form-grid'>
                             <div className='input-container'>
                                 <input

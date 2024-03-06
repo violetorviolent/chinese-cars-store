@@ -12,6 +12,7 @@ import SpecificCar from './SpecificCar/SpecificCar';
 import SpecificCarModel from './SpecificCarModel/SpecificCarModel';
 import Success from './Success/Success';
 import TradeInPage from './TradeInPage/TradeInPage';
+import ErrorPage from './ErrorPage/ErrorPage'
 
 
 export {
@@ -28,5 +29,6 @@ export {
   SpecificCar,
   SpecificCarModel,
   Success,
-  TradeInPage
+  TradeInPage,
+  ErrorPage
 };

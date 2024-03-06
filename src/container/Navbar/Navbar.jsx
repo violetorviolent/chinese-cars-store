@@ -146,6 +146,16 @@ const Navbar = () => {
 
       {toggleMenu && <MenuOverlay />}
 
+      <div>
+      <Link to='success'>success</Link>
+      <br/>
+      <Link to='politics'>politics</Link>
+      <br/>
+      <Link to='cars/title4/title4/'>specific car page</Link>
+      <br/>
+      <Link to='*'>error page</Link>
+      </div>
+
     </nav>
   )
 }

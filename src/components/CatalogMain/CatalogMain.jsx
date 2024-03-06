@@ -13,7 +13,7 @@ const CatalogMain = () => {
     return (
         <section >
             <h2 className='section__padding ' style={{ paddingBottom: '1.5rem' }}>Автосалон EXEED в Москве</h2>
-            <div >
+            {/* <div >
                 <div className="catalogMain-sort-container  section__padding-noY">
                     <DropdownType1
                         list={data.carNamesList}
@@ -40,7 +40,7 @@ const CatalogMain = () => {
                             dropdownType={'DropdownType1_2'} />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='cardOptionsGrid section__padding '>
                 {data.cardsType4.slice(0, slidesToShow).map((card) => { return (<CardType3 key={card.id} card={card} cardType={'cardType3_1'} />) })}
             </div>
