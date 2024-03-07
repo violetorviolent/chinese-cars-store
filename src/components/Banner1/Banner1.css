@@ -64,19 +64,10 @@
 }
 
 
-@media screen and (max-width: 650px) {
-    .banner1-colorOverlay {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--color-h-dark);
-        padding: 1.5rem;
-    }
-
+@media screen and (max-width: 1200px) {
+   
+    .banner1-colorOverlay,
     .banner2-colorOverlay {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding: 1.5rem;
     }
 
@@ -102,21 +93,8 @@
         line-height: 26px;
         font-weight: 500;
     }
-    .banner1-p {
-        display: flex;
-        gap: 1rem;
-        align-items: flex-start;
-        max-width: 350px;
-        font-size: 18px;
-        line-height: 29px;
-        font-weight: 400;
-        padding-left: 1.5rem;
-    }
-    .banner1-img{
-        display: block;
-        width: 100%;
-        margin: 4rem 0;
-    }
+   
+   
 
     .banner1-colorOverlay-p{
         display: none;
@@ -130,4 +108,25 @@
     .banner1-priceMobile span{
         font-size: 28px;
     }
+}
+
+@media screen and (max-width: 750px) {
+    
+    .banner1-colorOverlay,
+    .banner2-colorOverlay {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner1-colorOverlay {
+        background-color: var(--color-h-dark);
+    }
+
+    .banner1-img{
+        display: block;
+        width: 100%;
+        margin: 4rem 0;
+    }
+
 }

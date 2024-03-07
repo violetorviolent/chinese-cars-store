@@ -58,9 +58,10 @@ const PomodoroTimer = () => {
   const hourSeconds = 3600;
   const daySeconds = 86400;
 
+
   const timerProps = {
     isPlaying: true,
-    size: (helpers.useWindowWidth() < 750) ? 70 : 120,
+    size: helpers.usePomodoroSize(),
     strokeWidth: 2
   };
 

@@ -1,10 +1,13 @@
-import {DiscountPannel, CreditFormShort, NiceOptions, BannerForm} from '../../components'
+import {DiscountPannel, CreditFormShort, NiceOptions, BannerForm, Characteristics, ModificationsList} from '../../components'
 
 const SpecificCarModel = () => {
   return (
     <div>
-      <p>charcteristics</p>
-      <p>complectation</p>
+      <p>optimise for specificCar modifications, characteristics</p>
+      <p>exterior and interior gallery</p>
+      <p>2 headers</p>
+      <ModificationsList/>
+      <Characteristics/>
       <BannerForm/>
       <DiscountPannel/>
       <h2 className='section__padding-noY' >Купить этот авто в кредит по<br/>спецпрограмме <span className='colorAccent'>LADA FINANCE</span></h2>

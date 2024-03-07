@@ -38,12 +38,8 @@ body.active-modal {
 }
 
 .app__navbar-overlayMenu__bigScreen-catalogClose:hover p,
-.app__navbar-overlayMenu__bigScreen-catalogClose:hover svg {
+.app__navbar-overlayMenu__bigScreen-catalogClose:hover svg{
     color: var(--color-accent);
-}
-
-.app__navbar-overlayMenu__bigScreen-catalog h4 {
-    text-transform: none;
 }
 
 .app__navbar-overlayMenu__bigScreen-catalog__carnames {
@@ -53,7 +49,8 @@ body.active-modal {
     flex-wrap: wrap;
 }
 
-.app__navbar-overlayMenu__bigScreen-catalog__carnames a:hover {
+.app__navbar-overlayMenu__bigScreen-catalog__carnames a:hover,
+.app__navbar-overlayMenu__smallScreen li a h4:hover  {
     text-decoration: underline;
     color: var(--color-accent);
 }
@@ -74,18 +71,19 @@ body.active-modal {
 
 .app__navbar-overlayMenu__smallScreen{
     display: none;
-    background-color: white;
+    border-top: 1px solid var(--color-accent);
+    margin-top: 1rem;
 }
 
 .app__navbar-overlayMenu__smallScreen li{
     margin-top: 1rem;
 }
 
-@media screen and (max-width: 1100px) {
-    .app__navbar-overlayMenu__bigScreen {
+@media screen and (max-width: 1400px) {
+    .app__navbar-overlayMenu__bigScreen-banner,
+    .app__navbar-overlayMenu__bigScreen-catalogClose{
         display: none;
     }
-
     .app__navbar-overlayMenu__smallScreen{
         display: block;
     }

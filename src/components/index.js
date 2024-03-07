@@ -18,6 +18,8 @@ import ScrollToTop from './ScrollToTop/ScrollToTop';
 import CreditFormMain from './CreditFormMain/CreditFormMain';
 import CreditFormShort from './CreditFormMain/CreditFormShort';
 import DiscountPannel from './DiscountPannel/DiscountPannel';
+import Characteristics from './Characteristics/Characteristics';
+import ModificationsList from './ModificationsList/ModificationsList';
 
 export {
   OurAdvantages,
@@ -39,5 +41,7 @@ export {
   ScrollToTop,
   CreditFormMain,
   CreditFormShort,
-  DiscountPannel
+  DiscountPannel,
+  Characteristics,
+  ModificationsList
 };

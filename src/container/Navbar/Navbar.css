@@ -138,3 +138,23 @@ nav ul{
         right: -10px;
     }
 }
+
+@media screen and (max-width: 370px) {
+    .app__navbar-logo img {
+        width: 120px;
+    }
+
+    .app__navbar-icon {
+        padding: 0;
+    }
+
+    .app__navbar-iconsContainer {
+        padding-left: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .favoriteAmount {
+        top: -10px;
+        right: -10px;
+    }
+}

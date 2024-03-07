@@ -245,7 +245,7 @@ const CreditFormMain = (props) => {
                             dropdownType={'DropdownType1_3'} />
                     </div>
                 </div>
-                <div className="phoneOnly">
+                <div className="creditForm_phoneOnly">
                 <h2 style={{paddingBottom:'1rem'}}>Выберите автомобиль</h2>
                 <div className='creditForm__cardCar-imgContainer'>
                     <img src={images.CarCreditDefault} alt="car image" />
@@ -275,7 +275,7 @@ const CreditFormMain = (props) => {
                 <RangePayment />
                 <p className='colorLight'>Скидка действует при первом взносе от 10%</p>
                 <RangeTime />
-                <div className='phoneOnly'>
+                <div className='creditForm_phoneOnly'>
                 <div className='creditForm__creditForm-infoField '>
                             <p className='colorAccent'>Цена со скидкой:</p>
                             <p className='colorAccent'>От 756 300 ₽</p>

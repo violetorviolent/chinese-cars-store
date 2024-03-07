@@ -25,13 +25,13 @@
     display: flex;
     gap: 2rem;
     padding-bottom: 1rem;
-} 
+}
 
-.creditForm__cardCar h2{
+.creditForm__cardCar h2 {
     padding-bottom: 1rem;
-    }
+}
 
-.creditForm__cardCar-characteristics{
+.creditForm__cardCar-characteristics {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
 }
+
 .creditForm__creditForm-infoField {
     display: flex;
     justify-content: space-between;
@@ -49,25 +50,38 @@
     margin: 0.4rem 0;
 }
 
-.creditFormShort__cardCar-container{
+.creditFormShort__cardCar-container {
     padding-top: 1rem;
 }
-.creditFormShort__cardCar-container ul{
+
+.creditFormShort__cardCar-container ul {
     list-style: none;
 }
 
-.creditFormShort__cardCar-container li{
+.creditFormShort__cardCar-container li {
     padding-top: 1rem;
 }
+
+.creditForm_phoneOnly {
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
     .creditForm {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
 
+    .creditForm_phoneOnly {
+        display: block;
+    }
+
+    .creditForm__cardCar {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 
     .creditForm__creditForm-CarSelect {
         grid-template-columns: 1fr;
@@ -80,8 +94,4 @@
     .creditForm__cardCar-imgContainer img {
         width: 100%;
     }
-    .creditForm__cardCar{
-        display: none;
-    }
-
 }

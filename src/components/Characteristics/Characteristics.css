@@ -1,0 +1,28 @@
+.characteristics__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    border-left: 1px solid var(--color-border-light);
+}
+
+.characteristics__line{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.characteristics__img-container img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .characteristics__container{
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+        border-left: none;
+    }
+    
+
+}

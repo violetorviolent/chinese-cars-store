@@ -18,6 +18,21 @@ const helpers = {
       
         return windowWidth;
       },
+
+      usePomodoroSize: () =>{
+        const width = helpers.useWindowWidth();
+        let size = 0;
+        if (width >= 1500){
+            size = 150
+        }else if ((width < 1500) && (width >= 1350)){
+            size = 120
+        }else if ((width < 1350) && (width > 750)){
+            size = 100
+        }else {
+            size =60
+        }
+           return size
+      },
       
       useSlidesToShow: (length) => {
         return (helpers.useWindowWidth() < 750)? 3 : length;

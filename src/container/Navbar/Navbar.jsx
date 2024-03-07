@@ -69,13 +69,13 @@ const Navbar = () => {
                   )
                 })}
               </div>
-              <br />
-              <a href="#" className="btn-type1 btn-type1-orange" style={{ marginTop: '1rem' }} onClick={() => { setToggleMenu(false) }}>
-                <div className='btn-type1-container'>
-                  <p>Подробнее</p>
-                  <div><img src={images.arrowIcon} alt="view more" /></div>
-                </div>
-              </a>
+              <ul className='app__navbar-overlayMenu__smallScreen'>
+            <li><Link to='/' onClick={() => { setToggleMenu(false) }}><h4>Горячие предложения</h4></Link></li>
+            <li><Link to='cars' onClick={() => { setToggleMenu(false) }}><h4>Автомобили</h4></Link></li>
+            <li><Link to='trade-in' onClick={() => { setToggleMenu(false) }}><h4>TRADE-IN</h4></Link></li>
+            <li><Link to='credit' onClick={() => { setToggleMenu(false) }}><h4>В кредит</h4></Link></li>
+            <li><Link to='contact' onClick={() => { setToggleMenu(false) }}><h4>Контакты</h4></Link></li>
+          </ul>
             </div>
             <div className='app__navbar-overlayMenu__bigScreen-banner'
               style={{ backgroundImage: `url(${images.navBanner})` }}
@@ -84,13 +84,6 @@ const Navbar = () => {
               <p>Перейти в каталог</p>
             </div>
           </div>
-          <ul className='app__navbar-overlayMenu__smallScreen section__padding'>
-            <li><Link to='/' onClick={() => { setToggleMenu(false) }}>Горячие предложения</Link></li>
-            <li><Link to='cars' onClick={() => { setToggleMenu(false) }}>Автомобили</Link></li>
-            <li><Link to='trade-in' onClick={() => { setToggleMenu(false) }}>TRADE-IN</Link></li>
-            <li><Link to='credit' onClick={() => { setToggleMenu(false) }}>В кредит</Link></li>
-            <li><Link to='contact' onClick={() => { setToggleMenu(false) }}>Контакты</Link></li>
-          </ul>
         </div>
         <div style={{ width: '100%', height: '100vh' }} onClick={() => { setToggleMenu(false) }}></div>
       </div >

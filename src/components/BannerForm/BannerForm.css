@@ -13,7 +13,8 @@
 .bannerForm * {
     color: white;
 }
-.phoneOnly-bannerForm{
+
+.phoneOnly-bannerForm {
     display: none;
 }
 
@@ -70,7 +71,11 @@
         grid-template-columns: 1fr;
     }
 
-    .phoneOnly-bannerForm{
+    .bannerForm .PomodoroTimer {
+        justify-content: center;
+    }
+
+    .phoneOnly-bannerForm {
         display: block;
     }
 
@@ -83,9 +88,6 @@
         padding: 0.2rem;
     }
 
-    .bannerForm_form-grid button {
-        padding: 1rem 0;
-    }
 
     .bannerForm_form {
         padding-bottom: 0;
@@ -97,11 +99,27 @@
 
 }
 
+@media screen and (max-width: 500px) {
+    .bannerForm_form-head .line {
+        display: none;
+    }
 
+    .bannerForm_form-head {
+        display: flex;
+        justify-content: center;
 
-@media screen and (max-width: 1100px) {
-    
+    }
+
+}
+
+@media screen and (max-width: 1700px) {
+
     .bannerForm_form-grid {
         grid-template-columns: 1fr;
+    }
+
+
+    .bannerForm_form-grid button {
+        padding: 1rem 0;
     }
 }

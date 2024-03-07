@@ -1,88 +1,92 @@
 .headerHome-card {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
 }
 
 .headerHome-card-section__padding {
-    padding: 0;
-    flex: 1;
-  }
+  padding: 0;
+  flex: 1;
+}
 
 .p__headerHome-card-price {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 26px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .headerHome-card-catch {
-    background-color: var(--color-accent);
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 23px;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 0.3rem 0;
+  background-color: var(--color-accent);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.3rem 0;
 }
 
 
-.headerHome-card-PomodoroTimer{
+.headerHome-card-PomodoroTimer {
   margin: 2rem 0 4rem;
 }
+
+.headerHome-card-PomodoroTimer .PomodoroTimer{
+  justify-content: center;
+
+}
+
 .headerHome-card-smallScreen {
-    display: none;
-    text-align: left;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: none;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
 
 .headerHome-card-img img {
+  width: 100%;
+  padding-right: 2.5rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .headerHome-card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .headerHome-card-bigScreen {
+    display: none;
+  }
+
+  .headerHome-card-smallScreen {
+    display: flex;
+  }
+
+  .headerHome-card-img img {
     width: 100%;
-    padding-right: 2.5rem;
+    padding-right: 0;
+  }
+
+  .headerHome-card {
+    padding: 0;
+  }
+
+  .headerHome-card-section__padding {
+    padding: 0 4rem;
+  }
+
+  .headerHome-card-PomodoroTimer {
+    margin: 0 0 4rem;
+  }
 }
 
-
-
-@media screen and (max-width: 1500px) {
-    .headerHome-card {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-        
-    }
-
-    .headerHome-card-bigScreen {
-        display: none;
-    }
-
-    .headerHome-card-smallScreen {
-        display: flex;
-    }
-    .headerHome-card-img img {
-      width: 100%;
-      padding-right:0;
+@media screen and (max-width: 650px) {
+  .headerHome-card-section__padding {
+    padding: 0 1.5rem;
   }
-  
+
 }
-  
-  @media screen and (max-width: 850px) {
-    .headerHome-card {
-        padding: 0;
-    }
-    .headerHome-card-section__padding {
-      padding: 0 4rem;
-    }
-    .headerHome-card-PomodoroTimer{
-      margin: 0 0 4rem;
-    }
-  }
-  
-  @media screen and (max-width: 650px) {
-    .headerHome-card-section__padding {
-      padding: 0 1.5rem;
-    }
-  }
