@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chinese-cars-store/static/css/main.0d877cad.css",
-    "main.js": "/chinese-cars-store/static/js/main.015a4c20.js",
+    "main.css": "/chinese-cars-store/static/css/main.005adcca.css",
+    "main.js": "/chinese-cars-store/static/js/main.3dc62461.js",
     "static/media/RecomendationsSlider_1.png": "/chinese-cars-store/static/media/RecomendationsSlider_1.04e82849ad235cb62cbc.png",
     "static/media/RecomendationsSlider_2.png": "/chinese-cars-store/static/media/RecomendationsSlider_2.a38b725e77d34947beec.png",
     "static/media/placeholderCardType3_2.png": "/chinese-cars-store/static/media/placeholderCardType3_2.3d4efeae72198a7f8aa6.png",
@@ -9,6 +9,7 @@
     "static/media/placeholderCardType3_3.png": "/chinese-cars-store/static/media/placeholderCardType3_3.1a29518cb38917d0a2f7.png",
     "static/media/placeholderCardType3_1.png": "/chinese-cars-store/static/media/placeholderCardType3_1.5324034f1f5c3cdc3f28.png",
     "static/media/navBanner.png": "/chinese-cars-store/static/media/navBanner.3ae09cdfb306d8829695.png",
+    "static/media/modalPopUp.png": "/chinese-cars-store/static/media/modalPopUp.f9427bae017f4cc18604.png",
     "static/media/HeaderHome_3.png": "/chinese-cars-store/static/media/HeaderHome_3.326c973ad3e654b729f3.png",
     "static/media/HeaderHome_2.png": "/chinese-cars-store/static/media/HeaderHome_2.a60d03a4eb8b5ff35c14.png",
     "static/media/Banner_2Exeed.png": "/chinese-cars-store/static/media/Banner_2Exeed.e9a507d83c594cd1b6c6.png",
@@ -47,11 +48,11 @@
     "static/media/checkboxIcon.svg": "/chinese-cars-store/static/media/checkboxIcon.b2c0b2f7e01a4e5d790f45b8cdc37f78.svg",
     "static/media/plusIcon.svg": "/chinese-cars-store/static/media/plusIcon.980771049f8887959dd005e2dcb58a5f.svg",
     "static/media/HeaderHomeSliderActiveDot.svg": "/chinese-cars-store/static/media/HeaderHomeSliderActiveDot.1f6b0c2b6d3ef43a1728.svg",
-    "main.0d877cad.css.map": "/chinese-cars-store/static/css/main.0d877cad.css.map",
-    "main.015a4c20.js.map": "/chinese-cars-store/static/js/main.015a4c20.js.map"
+    "main.005adcca.css.map": "/chinese-cars-store/static/css/main.005adcca.css.map",
+    "main.3dc62461.js.map": "/chinese-cars-store/static/js/main.3dc62461.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d877cad.css",
-    "static/js/main.015a4c20.js"
+    "static/css/main.005adcca.css",
+    "static/js/main.3dc62461.js"
   ]
 }
